@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Register</title>
+<link rel="stylesheet" href="CSS\PrimaryMenuv1.css">
+<link rel='stylesheet' href='css/animate.css' type='text/css' media='all' />
+<style>
+	
+</style>
+<script>
+		function bigButton(x) {
+		  x.style.height = "80px";
+		  
+		}
+
+		function normalButton(x) {
+
+		  x.style.height= "50px";
+		 
+		}
+		</script>
+		<script>
+			function ValidateEmail(inputText)
+			{
+			var mailformat = /^[a-zA-Z0-9.]+@[a-zA-Z]+[a-zA-Z]/;
+			if(inputText.value.match(mailformat))
+			{
+			 return true;
+			}
+			else
+			{
+			alert("You have entered an invalid email address!");			
+			return false;
+			
+			}
+			}
+	</script>
+</head>
+	<body>
+		<!--Primary Navigation-->
+		<div class="Primarynavbar animated ">
+		<a title="Logo" href="Indexv1.1.html" class="animated flash"><img width="150" height="90" src="images\Logo1.jpg"></a>
+			<div class="Main-Menu">
+			  <a title="Home" href="Indexv1.1.html">HOME</a>
+				<div class="dropdown-menu">
+				  <a class="menu" title="Practice Areas" href="Practice_Areas.html">PRATICE AREAS</a>
+					  <div class="dropdown-menu-content">
+						<a title="WILLS AND ESTATE LAW" href="WILLS.html">WILLS AND ESTATE LAW</a>
+						<a title="IMMIGRATION LAW" href="IMMIGRATION.html">IMMIGRATION LAW</a>
+						<a title="REAL ESTATE LAW" href="REAL.html">REAL ESTATE LAW</a>
+						<a title="CIVIL LITIGATION LAW" href="CIVIL.html">CIVIL LITIGATION LAW</a>
+						<a title="CRIMINAL LAW" href="CRIMINAL.html">CRIMINAL LAW</a>
+						<a title="COMMERCIAL LAW" href="COMMERCIAL.html">COMMERCIAL LAW</a>
+						<a title="FAMILY LAW" href="FAMILY.html">FAMILY LAW</a>
+					  </div>
+				</div>
+				
+			  <a title="Our Lawyers" href="Our_Lawyers.html">OUR LAWYERS</a>
+			  <a title="About" href="About.html">ABOUT</a>
+			  <a title="Contact Us" href="Contact_Us.html">CONTACT US</a>
+			  <div class="dropdown-menu">		
+					<a class="menu" title="Login">LOGIN</a>
+					  <div class="dropdown-menu-content">
+						<a title="Login" href="Login.html">LOGIN</a>
+						<a title="Register" href="Register.html">REGISTER</a>
+					  </div>
+					  
+				</div>
+			  	<div class="search">
+						<form action="">
+						<input type="text" 	style="background-color:#FFD700; border-radius: 15px; padding: 15px 20px; text-align:left; font-size:14px " placeholder="Search.." name="search">
+						<button class="button" type="submit">Search</button>
+						</form>
+				</div>
+			</div>
+		</div>
+		<!-- Page Content-->
+		<div style="padding: 20px; ">
+			<div class="inside_content" >
+				
+				<div class="form" style="border:none; width:80%; font-size:20px;margin-left:1%;">
+				<form  name="Login" action="Registerack.html">
+					<h1>REGISTER</h1>
+					<p>Please fill in this form to create an account.</p>
+					<br>
+					<label for="fname"><b>Frist Name:</b></label>
+					<input type="text"  class="fields" style="margin-left:5%; width: 35%;" placeholder="Enter Frist Name" name="fname" id="fname" required><br><br>
+					<label for="lname"><b>Last Name:</b></label>
+					<input type="text"  class="fields" style="margin-left:5%; width: 35%;" placeholder="Enter Last Name" name="lname" id="lname" required><br><br>
+					<label for="email" ><b>Email:</b></label>
+					<input type="text" id="Email" name="mail" class="fields" style="margin-left:8.5%; width: 35%;"placeholder="Enter Email" name="Email" required><br><br>
+					<label for="EXT"><b>Phone EXT:</b></label>
+					<input type="text"  class="fields" style="margin-left:4.5%; width: 35%;" placeholder="Enter EXT" name="EXT" id="EXT" required><br><br>
+					<label for="Designation"><b>Designation:</b></label>
+					<input type="text"  class="fields" style="margin-left:4%; width: 35%;" placeholder="Enter Designation" name="Designation" id="Designation" required><br><br>			
+					<label for="psw"><b>Password:</b></label>
+					<input type="password"  class="fields" style="margin-left:5.5%; width: 35%;" placeholder="Enter Password" name="psw" id="psw" required><br><br>
+					<label for="psw-repeat"><b>Repeat Password:</b></label>
+					<input type="password"  class="fields" style="margin-left:0%; width: 35%;" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br><br>
+					<p>Click on the "Browse" button to upload a Profile Picture:</p>
+					
+					<input  type="file" class="button2"id="myFile" name="filename">
+					<button type="submit" class="button2" onmouseover="bigButton(this)" onmouseout="normalButton(this)" onclick="ValidateEmail(document.Login.mail)">Register</button><br>
+					
+					
+					<p>If you have an account then click on  <a href="Login.html">Login</a>.</p>
+				</form>
+				</div>
+			</div>
+		</div>
+		<!--Footer Section-->
+		 <div class="footer">
+		  <p>© 2021 WICHITA LAWYERS. All Rights Reserved. Powered by WSU</p>
+		</div>
+		
+	</body>
+</html>

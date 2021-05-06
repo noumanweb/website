@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="css/PrimaryMenuv1.css">
+<link rel='stylesheet' href='css/animate.css' type='text/css' media='all' />
+<style>
+	
+</style>
+<script>
+		function bigButton(x) {
+		  x.style.height = "80px";
+		  
+		}
+
+		function normalButton(x) {
+
+		  x.style.height= "50px";
+		 
+		}
+		</script>
+		<script>
+			function ValidateEmail(inputText)
+			{
+			var mailformat = /^[a-zA-Z0-9.]+@[a-zA-Z]+[a-zA-Z]/;
+			if(inputText.value.match(mailformat))
+			{
+			 return true;
+			}
+			else
+			{
+			alert("You have entered an invalid email address!");			
+			return false;
+			
+			}
+			}
+	</script>
+</head>
+	<body>
+		<!--Primary Navigation-->
+		<div class="Primarynavbar animated ">
+		<a title="Logo" href="Indexv1.1.html" class="animated flash"><img width="150" height="90" src="images\Logo1.jpg"></a>
+			<div class="Main-Menu">
+			  <a title="Home" href="Indexv1.1.html">HOME</a>
+				<div class="dropdown-menu">
+				  <a class="menu" title="Practice Areas" href="Practice_Areas.html">PRATICE AREAS</a>
+					  <div class="dropdown-menu-content">
+						<a title="WILLS AND ESTATE LAW" href="WILLS.html">WILLS AND ESTATE LAW</a>
+						<a title="IMMIGRATION LAW" href="IMMIGRATION.html">IMMIGRATION LAW</a>
+						<a title="REAL ESTATE LAW" href="REAL.html">REAL ESTATE LAW</a>
+						<a title="CIVIL LITIGATION LAW" href="CIVIL.html">CIVIL LITIGATION LAW</a>
+						<a title="CRIMINAL LAW" href="CRIMINAL.html">CRIMINAL LAW</a>
+						<a title="COMMERCIAL LAW" href="COMMERCIAL.html">COMMERCIAL LAW</a>
+						<a title="FAMILY LAW" href="FAMILY.html">FAMILY LAW</a>
+					  </div>
+				</div>
+				
+			  <a title="Our Lawyers" href="Our_Lawyers.html">OUR LAWYERS</a>
+			  <a title="About" href="About.html">ABOUT</a>
+			  <a title="Contact Us" href="Contact_Us.html">CONTACT US</a>
+			  <div class="dropdown-menu">		
+					<a class="menu" title="Login">LOGIN</a>
+					  <div class="dropdown-menu-content">
+						<a title="Login" href="Login.html">LOGIN</a>
+						<a title="Register" href="Register.html">REGISTER</a>
+					  </div>
+					  
+				</div>
+			  	<div class="search">
+						<form action="">
+						<input type="text" 	style="background-color:#FFD700; border-radius: 15px; padding: 15px 20px; text-align:left; font-size:14px " placeholder="Search.." name="search">
+						<button class="button" type="submit">Search</button>
+						</form>
+				</div>
+			</div>
+		</div>
+		<!-- Page Content-->
+
+		<h1> LOGIN </h1>
+		<div style="padding: 20px; ">
+			<div class="inside_content" >
+			
+			<div class="form" style="border:none; width:60%; font-size:20px;">
+			<p>Please Enter your user password to Login</p><br><br>
+				<form name="Login"action="Profile.html">
+				<label for="Email" pattern=""><b>Email:</b></label>
+				<input type="text" id="Email" name="mail" class="fields" style="margin-left:4%; width: 80%;"placeholder="Enter Email" name="Email" required><br><br>
+
+				<label for="psw"><b>Password:</b></label>
+				<input type="password" id="psw" class="fields" style="margin-left:0%; width: 80%;" placeholder="Enter Password" name="psw" required><br><br>
+				
+				<p><button type="submit" class="button2" onmouseover="bigButton(this)" onmouseout="normalButton(this)" onclick="ValidateEmail(document.Login.mail)">Login</button>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				Forgot <a href="Forgot_Password.html">password?</a></p><br>
+			<p>If you do not have an account then click on  <a href="Register.html">Register</a>.</p>	
+															
+							</form>
+			</div>
+			 
+			</div>
+		</div>
+		<!--Footer Section-->
+		 <div class="footer">
+		  <p>© 2021 WICHITA LAWYERS. All Rights Reserved. Powered by WSU</p>
+		</div>
+	</body>
+</html>
