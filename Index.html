@@ -1,131 +1,203 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>	
-	<title>HOME</title>
-	<link rel="stylesheet" href="css/PrimaryMenuv1.css">
-	<link rel='stylesheet' href='css/animate.css' type='text/css' media='all' />
-	<style>
+  <head>
+    <title>Watan Darbar</title>
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css" media="all" />
+    <link rel="icon" type="image/x-icon" href="images\Favicon.png" />
+	 <link rel="stylesheet" href="css/Primary_Nav.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+      }
+      .fa:hover {
+        color: #0f52ba;
+      }
+
+      .fa-facebook {
+        color: white;
+        font-family: fontawesome;
+      }
+
+      .fa-instagram {
+        color: white;
+        font-family: fontawesome
+      }
+      .carousel-inner .item img {
+		width: 100%;
+		}
 	
-	</style>
-		<script>
-		function bigButton(x) {
-		  x.style.height = "80px";
-		  
-		}
-
-		function normalButton(x) {
-
-		  x.style.height= "50px";
-		 
-		}
-		</script>
-		<script>
-			function ValidateEmail(inputText)
-			{
-			var mailformat = /^[a-zA-Z0-9.]+@[a-zA-Z]+[a-zA-Z]/;
-			if(inputText.value.match(mailformat))
-			{
-			 return true;
-			}
-			else
-			{
-			alert("You have entered an invalid email address!");			
-			return false;
-			
-			}
-			}
-	</script>
-	</head>
-	<body>
-		<!--Primary Navigation-->
-		<div class="Primarynavbar animated ">
-		<a title="Logo" href="Index.html" class="animated flash"><img width="150" height="90" src="images\Logo1.jpg"></a>
-			<div class="Main-Menu">
-			  <a title="Home" href="Index.html">HOME</a>
-				<div class="dropdown-menu">
+    </style>
+  </head>
+  <body>
+    <!--Primary Navigation-->
+    <div class="Primarynavbar animated">
+      <a title="Logo" href="Index.html" class="animated flash"
+        ><img width="200 " height="80" src="images\Logo2.png"
+      /></a>
+      <div class="Main-Menu">
+        <div style="margin-top: 70px; margin-bottom: 110px">
+          <a title="Home" href="Index.html">HOME</a>
+          <!--dropdown-menu
+			<div class="dropdown-menu">
 				  <a class="menu" title="Practice Areas" href="Practice_Areas.html">PRATICE AREAS</a>
 					  <div class="dropdown-menu-content">
 						<a title="WILLS AND ESTATE LAW" href="WILLS.html">WILLS AND ESTATE LAW</a>
-						<a title="IMMIGRATION LAW" href="IMMIGRATION.html">IMMIGRATION LAW</a>
-						<a title="REAL ESTATE LAW" href="REAL.html">REAL ESTATE LAW</a>
-						<a title="CIVIL LITIGATION LAW" href="CIVIL.html">CIVIL LITIGATION LAW</a>
-						<a title="CRIMINAL LAW" href="CRIMINAL.html">CRIMINAL LAW</a>
-						<a title="COMMERCIAL LAW" href="COMMERCIAL.html">COMMERCIAL LAW</a>
-						<a title="FAMILY LAW" href="FAMILY.html">FAMILY LAW</a>
+						
 					  </div>
-				</div>
-				
-			  <a title="Our Lawyers" href="Our_Lawyers.html">OUR LAWYERS</a>
-			  <a title="About" href="About.html">ABOUT</a>
-			  <a title="Contact Us" href="Contact_Us.html">CONTACT US</a>
-			  <div class="dropdown-menu">		
-					<a class="menu" title="Login">LOGIN</a>
-					  <div class="dropdown-menu-content">
-						<a title="Login" href="Login.html">LOGIN</a>
-						<a title="Register" href="Register.html">REGISTER</a>
-					  </div>
-					  
-				</div>
-			  	<div class="search">
-						<form action="">
-						<input type="text" 	style="background-color:#FFD700; border-radius: 15px; padding: 15px 20px; text-align:left; font-size:14px " placeholder="Search.." name="search">
-						<button class="button" type="submit">Search</button>
-						</form>
-				</div>
-			</div>
-		</div>
-		
-		<!--Welcome Content-->
-		<h1 style = "text-align: center">WELCOME TO WICHITA LAWYERS</h1>
+				</div>-->
+          <a title="Contact Us" href="menu.html">MENU</a>
+          <a title="Contact Us" href="Contact_Us.html">CONTACT US</a>
+		  <div style="float: right">
+            <!-- <a target=”_blank” href="#" class="fab fa-facebook"></a> -->
+            <a target=”_blank” href="https://www.instagram.com/watan_darbar/" class="fab fa-instagram"></a>
+			<a href="tel:9052262680">Mobile: (905)-226-2680</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Welcome Content-->
+	
+	<div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/Hero.jpg)">
+  <div class="hero-text">
+    <h1 style="font-size:50px; color:white;">WATAN DARBAR</h1>
+    <p style="color:white;">Experience the taste like never before.</p><br>
+    <button><a href="menu.html">MENU</a> </button>
+</div>
+</div>
+    <!-- <div class="row"> -->
+      <!-- <div class="inside_content"> -->
+	  <!-- <br> -->
+	  <!-- <br> -->
+        <!-- <h2 style= "text-align:center">About Us</h2> -->
+        <!-- <p> -->
+          <!-- .......... -->
+          <!-- <a href="About.html">Learn More</a> -->
+        <!-- </p> -->
+      <!-- </div> -->
+    <!-- </div> -->
+	<br>
+	<h2>About Us</h2><br>
+	<img
+              src="images/Delicious Food Menu Banner Design 2.jpg"
+              alt="QRCode"
+              style="width: 100%; height:80%"
+            />
+			<!-- <div class="learn"> -->
+			<!-- <button><a href="About.html">LEARN MORE</a> </button></div> -->
+    <!-- <div class="row">
+      <div class="leftcolumn">
+        <div class="inside_flyer">
+          <div class="form animated pulse">
+            <img src="images\EN_flyer.jpg" alt="En Flyer" style="width: 100%" />
+          </div>
+        </div>
+      </div>
+      <div class="leftcolumn">
+        <div class="inside_flyer">
+          <div class="form animated pulse">
+            <img
+              src="images\urdu_flyer.jpg"
+              alt="Urdu Flyer"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-----------------------Carsoul------------------>
+    
+	<main id="main">
+	<h2>Our Specials</h2><br>
+        <div class="slider-container">
+		    <img style="display: block;" class="slider-image smooth" src="images\1.jpg">
+			<img class="slider-image smooth" src="images\2.jpg">
+            <img class="slider-image smooth" src="images\3.jpg">
+            <img class="slider-image smooth" src="images\4.jpeg">
+			<img class="slider-image smooth" src="images\5.jpg">
+            <button type="button" onclick="prevSlide()" class="slider-button" id="prev"><i class="fa-solid fa-caret-left" style="background: grey;
+    padding: 5px;"></i></button>
+            <button type="button" class="slider-button" id="next"><i class="fa-solid fa-caret-right"style="background: grey;
+    padding: 5px;"></i></button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+	
+	<div style="background-color:#f2f3f7;">
+		<!-- <br><br> -->
+		<!-- <h2 style="text-align:center">Visit Us Now!!!</h2> -->
 		<div class="row">
-			<div class="leftcolumn">
-			<div class="inside_content">
-				
-				<h2>About Us</h2>
-			<p>Thank you for viewing Wichita Lawyers LLC. Our firm started out in 2015 and has been thriving in Wichita ever since.<br> <br>We believe that the diversity in the community should be reflected in the law offices as well. This is what the Wichita community deserves and we are trying to increase that representation. <br>At our firm we view every single client as a person and not a file number, we want to ensure they get the time and compassion to assist them with their case....
-				<a href="About.html">Learn More</a>
-				</p>
-			</div>
-				
-			<div class="inside_content">
-			<h2>Our Services</h2><br><br>
-			<ul>
-					<li><a title="WILLS AND ESTATE LAW" href="WILLS.html">WILLS AND ESTATE LAW</a></li>
-					<li><a title="IMMIGRATION LAW" href="IMMIGRATION.html">IMMIGRATION LAW</a></li>
-					<li><a title="REAL ESTATE LAW" href="REAL.html">REAL ESTATE LAW</a></li>
-					<li><a title="CIVIL LITIGATION LAW" href="CIVIL.html">CIVIL LITIGATION LAW</a></li>
-					<li><a title="CRIMINAL LAW" href="CRIMINAL.html">CRIMINAL LAW</a></li>
-					<li><a title="COMMERCIAL LAW" href="COMMERCIAL.html">COMMERCIAL LAW</a></li>
-					<li><a title="FAMILY LAW" href="FAMILY.html">FAMILY LAW</a></li>	
-				</ul> 
-			</div>
-				
-			</div>
-
-			<!--Consulation Form-->
-
-					<div class="rightcolumn">
-						<div class="form animated pulse">
-							<h2 style="text-align:center;">Free Legal Consultation</h2><hr style="border:solid black 2px;">
-						
-							<form name= "consultaion" action="Thank_You.html">
-								<input type="text" id="fname" class="fields" placeholder="Firstname" required>
-								<input type="text" id="lname" class="fields" placeholder="Lastname">
-								<input type="text" name="mail" id="email" class="fields" placeholder="Email address" required>
-								<input type="text" id="phone" class="fields" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-								        &nbsp &nbsp &nbsp &nbsp &nbsp Phone# Format xxx-xxx-xxxx
-								<textarea name="message" id="message" cols="30" rows="10" class="fields" placeholder="Say something about us"></textarea>
-								<input type="submit"  style="background:black; color: white;"  value="Submit form" class="fields"  onmouseover="bigButton(this)" onmouseout="normalButton(this)" onclick="ValidateEmail(document.consultaion.mail)">									
-							</form>
+		  <div class="leftcolumn">
+			<div class="inside_flyer" style="text-align:center"	>
+			<h2 style="text-align:center">MENU</h2><br><br>
+			<div class="form animated pulse">
+			<img id="myImg" src="images/menu.jpg" alt="" style="width: 80%;   max-height: 600px;">
+				<!-- The Mo	dal -->
+						<div id="myModal" class="modal">
+						  <span class="close">&times;</span>
+						  <img class="modal-content" id="img01">
+						  <div id="caption"></div>
 						</div>
-						
-					</div>
-				
-		</div>
-		<!--Footer Section-->
-		 <div class="footer">
-		  <p>© 2021 WICHITA LAWYERS. All Rights Reserved. Powered by WSU</p>
-		</div>
 
-	</body>
+						<script>
+						// Get the modal
+						var modal = document.getElementById("myModal");
+
+						// Get the image and insert it inside the modal - use its "alt" text as a caption
+						var img = document.getElementById("myImg");
+						var modalImg = document.getElementById("img01");
+						var captionText = document.getElementById("caption");
+						img.onclick = function(){
+						  modal.style.display = "block";
+						  modalImg.src = this.src;
+						  captionText.innerHTML = this.alt;
+						}
+
+						// Get the <span> element that closes the modal
+						var span = document.getElementsByClassName("close")[0];
+
+						// When the user clicks on <span> (x), close the modal
+						span.onclick = function() { 
+						  modal.style.display = "none";
+						}
+						</script>
+					<br>
+			</div>		
+			</div>
+		  </div>
+		  <div class="leftcolumn">
+			<div class="inside_flyer">
+			  <div class="form animated pulse">
+			  <h2 style="text-align:center">Visit Us Now!!!</h2><br><br>
+			  <div class="form animated pulse">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.143148700149!2d-79.76770832396329!3d43.58273457110545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6a41a880d52b%3A0xb099aa45e83df87f!2s6750%20Winston%20Churchill%20Blvd%2C%20Mississauga%2C%20ON%20L5N%204C4!5e0!3m2!1sen!2sca!4v1703456199011!5m2!1sen!2sca" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			  
+			  </div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+		<!--Footer Section-->
+    <div class="footer">
+      <p>© 2023 WATAN DARBAR. All Rights Reserved. Powered by WD</p>
+    </div>
+  </body>
 </html>

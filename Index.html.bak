@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+	<head>	
+	<title>Kadaknath Chicken & Eggs</title>
+	<link rel="stylesheet" href="css/Primary_Nav.css">
+	<link rel="stylesheet" href="css/Carsouel.css">
+	<link rel='stylesheet' href='css/animate.css' type='text/css' media='all' />
+	<link rel="icon" type="image/x-icon" href="images\fav.jpg">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+	.carousel{position:relative}.carousel-inner{position:relative;width:100%;overflow:hidden}.carousel-inner>.item{position:relative;display:none;-webkit-transition:.6s ease-in-out left;-o-transition:.6s ease-in-out left;transition:.6s ease-in-out left}.carousel-inner>.item>a>img,.carousel-inner>.item>img{line-height:1}@media all and (transform-3d),(-webkit-transform-3d){.carousel-inner>.item{-webkit-transition:-webkit-transform .6s ease-in-out;-o-transition:-o-transform .6s ease-in-out;transition:-webkit-transform .6s ease-in-out;transition:transform .6s ease-in-out;transition:transform .6s ease-in-out,-webkit-transform .6s ease-in-out,-o-transform .6s ease-in-out;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-perspective:1000px;perspective:1000px}.carousel-inner>.item.active.right,.carousel-inner>.item.next{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);left:0}.carousel-inner>.item.active.left,.carousel-inner>.item.prev{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);left:0}.carousel-inner>.item.active,.carousel-inner>.item.next.left,.carousel-inner>.item.prev.right{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);left:0}}.carousel-inner>.active,.carousel-inner>.next,.carousel-inner>.prev{display:block}.carousel-inner>.active{left:0}.carousel-inner>.next,.carousel-inner>.prev{position:absolute;top:0;width:100%}.carousel-inner>.next{left:100%}.carousel-inner>.prev{left:-100%}.carousel-inner>.next.left,.carousel-inner>.prev.right{left:0}.carousel-inner>.active.left{left:-100%}.carousel-inner>.active.right{left:100%}.carousel-control{position:absolute;top:0;bottom:0;left:0;width:15%;font-size:20px;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,.6);background-color:rgba(0,0,0,0);filter:alpha(opacity=50);opacity:.5}.carousel-control.left{background-image:-webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);background-image:-o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);background-image:-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));background-image:linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);background-repeat:repeat-x}.carousel-control.right{right:0;left:auto;background-image:-webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);background-image:-o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);background-image:-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));background-image:linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);background-repeat:repeat-x}.carousel-control:focus,.carousel-control:hover{color:#fff;text-decoration:none;outline:0;filter:alpha(opacity=90);opacity:.9}.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right,.carousel-control .icon-next,.carousel-control .icon-prev{position:absolute;top:50%;z-index:5;display:inline-block;margin-top:-10px}.carousel-control .glyphicon-chevron-left,.carousel-control .icon-prev{left:50%;margin-left:-10px}.carousel-control .glyphicon-chevron-right,.carousel-control .icon-next{right:50%;margin-right:-10px}.carousel-control .icon-next,.carousel-control .icon-prev{width:20px;height:20px;font-family:serif;line-height:1}.carousel-control .icon-prev:before{content:"\2039"}.carousel-control .icon-next:before{content:"\203a"}.carousel-indicators{position:absolute;bottom:10px;left:50%;z-index:15;width:60%;padding-left:0;margin-left:-30%;text-align:center;list-style:none}.carousel-indicators li{display:inline-block;width:10px;height:10px;margin:1px;text-indent:-999px;cursor:pointer;background-color:#000\9;background-color:rgba(0,0,0,0);border:1px solid #fff;border-radius:10px}.carousel-indicators .active{width:12px;height:12px;margin:0;background-color:#fff}.carousel-caption{position:absolute;right:15%;bottom:20px;left:15%;z-index:10;padding-top:20px;padding-bottom:20px;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,.6)}.carousel-caption .btn{text-shadow:none}@media screen and (min-width:768px){.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right,.carousel-control .icon-next,.carousel-control .icon-prev{width:30px;height:30px;margin-top:-10px;font-size:30px}.carousel-control .glyphicon-chevron-left,.carousel-control .icon-prev{margin-left:-10px}.carousel-control .glyphicon-chevron-right,.carousel-control .icon-next{margin-right:-10px}.carousel-caption{right:20%;left:20%;padding-bottom:30px}.carousel-indicators{bottom:20px}}
+	</style>
+		
+	</head>
+	<body>
+		<!--Primary Navigation-->
+		<div class="Primarynavbar animated ">
+		<a title="Logo" href="Index.html" class="animated flash"><img width="200" height="200" src="images\Logo1.jpg"></a>
+	<div class="Main-Menu">
+        <div class="search">
+			<a href="tel:9885747432">Cell: 9885747432</a><br><br><a href="tel:7013391273">Cell: 7013391273</a><br><br>
+             <a href="tel:9100822310">Cell: 9100822310</a>                 	
+		</div> 
+        <div style="margin-top: 65px;margin-bottom: 110px;">
+			  <a title="Home" href="Index.html">HOME</a>
+			<!--dropdown-menu
+			<div class="dropdown-menu">
+				  <a class="menu" title="Practice Areas" href="Practice_Areas.html">PRATICE AREAS</a>
+					  <div class="dropdown-menu-content">
+						<a title="WILLS AND ESTATE LAW" href="WILLS.html">WILLS AND ESTATE LAW</a>
+						
+					  </div>
+				</div>-->
+			<a title="About" href="About.html">ABOUT US</a>
+			<a title="Contact Us" href="Contact_Us.html">CONTACT US</a>
+			
+        </div>  	
+				
+			</div>		
+           
+		</div>
+				
+		<!--Welcome Content-->
+		<h1 style="text-align: center">WELCOME TO SAPPHIRE LIVESTOCK</h1>
+		<h2 style="text-align: center">Kadaknath Chicken and Eggs Supplier</h2>
+		<div class="row">
+			
+			<div class="inside_content">
+				
+				<h2>About Us</h2>
+			<p>Thank you for viewing Wichita Lawyers LLC. Our firm started out in 2015 and has been thriving in Wichita ever since.<br> <br>We believe that the diversity in the community should be reflected in the law offices as well. This is what the Wichita community deserves and we are trying to increase that representation. <br>At our firm we view every single client as a person and not a file number, we want to ensure they get the time and compassion to assist them with their case....
+				<a href="About.html">Learn More</a>
+				</p>
+			</div>
+				
+			
+		</div>
+		<div class="row">
+		
+		
+			<div class="leftcolumn">
+			<div class="inside_flyer">
+				<div class="form animated pulse">
+					<img src="images\EN_flyer.jpg" alt="En Flyer" style="width:100%">						
+				</div>						
+			</div>
+				</div>
+			<div class="leftcolumn">
+			<div class="inside_flyer">
+				<div class="form animated pulse">
+					<img src="images\urdu_flyer.jpg" alt="Urdu Flyer" style="width:100%">						
+				</div>	
+			</div>	
+			</div>
+				
+		</div>
+		<!-----------------------Carsoul------------------>
+		&nbsp;
+		<br><br>
+		<h2 style="text-align: center"> GALLERY </h2><br>
+		
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images\1-1000x1000.jpg" height=600 style="width:100%">
+    </div>
+
+    <div class="item">
+      <img src="images\kadaknath-1000x1000.jpg" height=600 style="width:100%">
+    </div>
+
+    <div class="item">
+     <img src="images\1-1000x1000.jpg" height=600 style="width:100%">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+		<!--Footer Section-->
+		<div class="footer">
+		  <p>© 2023 SAPPHIRE LIVESTOCK. All Rights Reserved. Powered by SLS</p>
+		</div>
+    </body>
+</html>
